@@ -1,14 +1,15 @@
 {
   "expo": {
     "name": "Frontend",
-    "slug": "Frontend",
+    "slug": "schoolmattazz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "frontend",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.schoolmattazz.app"
     },
     "android": {
       "package": "com.schoolmattazz.app",
@@ -40,6 +41,16 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "33a23f55-5d40-487b-9e18-14aa2e6a8dde"
+      }
+    },
+    "cli": {
+      "appVersionSource": "PACKAGE_VERSION"
+    },
+    "owner": "josetic224"
   }
 }
