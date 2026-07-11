@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Frontend",
-    "slug": "schoolmattazz",
+    "slug": "Frontend",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -47,10 +47,6 @@
       "eas": {
         "projectId": "33a23f55-5d40-487b-9e18-14aa2e6a8dde"
       }
-    },
-    "cli": {
-      "appVersionSource": "PACKAGE_VERSION"
-    },
-    "owner": "josetic224"
+    }
   }
 }
