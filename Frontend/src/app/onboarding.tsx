@@ -69,7 +69,7 @@ export default function OnboardingScreen() {
                 <View style={styles.illustrationContainer}>
                     <View style={styles.placeholderBg}>
                         <Image
-                            source={require('../../assets/images/onboarding_hero.png')}
+                            source={require('../../assets/images/onboarding_hero.jpg')}
                             style={styles.heroImage}
                             resizeMode="cover"
                         />
